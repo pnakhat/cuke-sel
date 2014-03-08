@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="35.626" errors="2" skipped="3" tests="6" name="org.qagile.RunCukeTest">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/1.6.0_37-b06-434.jdk/Contents/Libraries"/>
+    <property name="java.vm.version" value="20.12-b01-434"/>
+    <property name="awt.nativeDoubleBuffering" value="true"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="mrj.build" value="11M4509"/>
+    <property name="java.vm.vendor" value="Apple Inc."/>
+    <property name="java.vendor.url" value="http://www.apple.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="idea.launcher.port" value="7532"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/pankajnakhat/cucumber-jvm-qagile"/>
+    <property name="java.runtime.version" value="1.6.0_37-b06-434-11M4509"/>
+    <property name="java.awt.graphicsenv" value="apple.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/1.6.0_37-b06-434.jdk/Contents/Home/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/rn/b6h4v6cj667f14cryvh_9_l40000gn/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/usr/share/java/apache-maven-3.0.4/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="MacRoman"/>
+    <property name="java.library.path" value=".:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="50.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.8.5"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/pankajnakhat"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.awt.printerjob" value="apple.awt.CPrinterJob"/>
+    <property name="java.specification.version" value="1.6"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="idea.launcher.bin.path" value="/Applications/IntelliJ IDEA 12.app/bin"/>
+    <property name="user.name" value="pankajnakhat"/>
+    <property name="java.class.path" value="/usr/share/java/apache-maven-3.0.4/boot/plexus-classworlds-2.4.jar:/Applications/IntelliJ IDEA 12.app/lib/idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.0"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/1.6.0_37-b06-434.jdk/Contents/Home"/>
+    <property name="sun.java.command" value="com.intellij.rt.execution.application.AppMain org.codehaus.classworlds.Launcher --fail-fast --strict-checksums clean install"/>
+    <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="apple.awt.CToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.6.0_37"/>
+    <property name="java.ext.dirs" value="/Library/Java/Extensions:/System/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/1.6.0_37-b06-434.jdk/Contents/Home/lib/ext"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/1.6.0_37-b06-434.jdk/Contents/Classes/jsfd.jar:/Library/Java/JavaVirtualMachines/1.6.0_37-b06-434.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/Library/Java/JavaVirtualMachines/1.6.0_37-b06-434.jdk/Contents/Classes/ui.jar:/Library/Java/JavaVirtualMachines/1.6.0_37-b06-434.jdk/Contents/Classes/laf.jar:/Library/Java/JavaVirtualMachines/1.6.0_37-b06-434.jdk/Contents/Classes/sunrsasign.jar:/Library/Java/JavaVirtualMachines/1.6.0_37-b06-434.jdk/Contents/Classes/jsse.jar:/Library/Java/JavaVirtualMachines/1.6.0_37-b06-434.jdk/Contents/Classes/jce.jar:/Library/Java/JavaVirtualMachines/1.6.0_37-b06-434.jdk/Contents/Classes/charsets.jar"/>
+    <property name="java.vendor" value="Apple Inc."/>
+    <property name="maven.home" value="/usr/share/java/apache-maven-3.0.4"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.apple.com/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="mrj.version" value="1070.1.6.0_37-434"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase time="0.001" classname="Scenario: Invalid Registration" name="Given I am a user and I choose less then six character long password"/>
+  <testcase time="0.014" classname="Scenario: Invalid Registration" name="And I navigate to spree portal">
+    <error message="Timed out after 10 seconds: Could not find element : Located by By.selector: #link-to-login a:nth-child(1)
+Build info: version: &apos;dfb1306b85be4934d23c123122e06e602a15e446&apos;, revision: &apos;unknown&apos;, time: &apos;2013-01-17 15:05:54&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.8.5&apos;, java.version: &apos;1.6.0_37&apos;
+Driver info: driver.version: unknown" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Timed out after 10 seconds: Could not find element : Located by By.selector: #link-to-login a:nth-child(1)
+Build info: version: &apos;dfb1306b85be4934d23c123122e06e602a15e446&apos;, revision: &apos;unknown&apos;, time: &apos;2013-01-17 15:05:54&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.8.5&apos;, java.version: &apos;1.6.0_37&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:255)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:224)
+	at org.qagile.selenium.DriverProvider.getWebElement(DriverProvider.java:79)
+	at org.qagile.selenium.DriverProvider.findElement(DriverProvider.java:69)
+	at org.qagile.elements.LoginElements.loginLink(LoginElements.java:17)
+	at org.qagile.pages.LoginPage.navigate(LoginPage.java:18)
+	at org.qagile.steps.MyStepDefs.I_navigate_to_spree_portal(MyStepDefs.java:40)
+	at ✽.And I navigate to spree portal(features/registration.feature:25)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#link-to-login a:nth-child(1)&quot;}
+Command duration or timeout: 9 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;dfb1306b85be4934d23c123122e06e602a15e446&apos;, revision: &apos;unknown&apos;, time: &apos;2013-01-17 15:05:54&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.8.5&apos;, java.version: &apos;1.6.0_37&apos;
+Session ID: 5b473678-7ca5-864a-b41c-0d868eb7202f
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=17.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:187)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:533)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:302)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:379)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:406)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:294)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:523)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:39)
+	at org.openqa.selenium.support.ui.ExpectedConditions$3.apply(ExpectedConditions.java:106)
+	at org.openqa.selenium.support.ui.ExpectedConditions$3.apply(ExpectedConditions.java:103)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:204)
+	at org.qagile.selenium.DriverProvider.getWebElement(DriverProvider.java:79)
+	at org.qagile.selenium.DriverProvider.findElement(DriverProvider.java:69)
+	at org.qagile.elements.LoginElements.loginLink(LoginElements.java:17)
+	at org.qagile.pages.LoginPage.navigate(LoginPage.java:18)
+	at org.qagile.steps.MyStepDefs.I_navigate_to_spree_portal(MyStepDefs.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at cucumber.runtime.Utils$1.call(Utils.java:44)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:12)
+	at cucumber.runtime.Utils.invoke(Utils.java:40)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:35)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:38)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:268)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:45)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:40)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:36)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:83)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:77)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:82)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:53)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:123)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#link-to-login a:nth-child(1)&quot;}
+Build info: version: &apos;dfb1306b85be4934d23c123122e06e602a15e446&apos;, revision: &apos;unknown&apos;, time: &apos;2013-01-17 15:05:54&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.8.5&apos;, java.version: &apos;1.6.0_37&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.findElementInternal_(file:///var/folders/rn/b6h4v6cj667f14cryvh_9_l40000gn/T/anonymous6051919102514119616webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8251)
+	at &lt;anonymous class&gt;.FirefoxDriver.findElement(file:///var/folders/rn/b6h4v6cj667f14cryvh_9_l40000gn/T/anonymous6051919102514119616webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8260)
+	at &lt;anonymous class&gt;.DelayedCommand.executeInternal_/h(file:///var/folders/rn/b6h4v6cj667f14cryvh_9_l40000gn/T/anonymous6051919102514119616webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10224)
+	at &lt;anonymous class&gt;.DelayedCommand.executeInternal_(file:///var/folders/rn/b6h4v6cj667f14cryvh_9_l40000gn/T/anonymous6051919102514119616webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10229)
+	at &lt;anonymous class&gt;.DelayedCommand.execute/&lt;(file:///var/folders/rn/b6h4v6cj667f14cryvh_9_l40000gn/T/anonymous6051919102514119616webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10169)
+</error>
+  </testcase>
+  <testcase time="0.016" classname="Scenario: Invalid Registration" name="Scenario: Invalid Registration">
+    <error message="Timed out after 10 seconds: Could not find element : Located by By.selector: #link-to-login a:nth-child(1)
+Build info: version: &apos;dfb1306b85be4934d23c123122e06e602a15e446&apos;, revision: &apos;unknown&apos;, time: &apos;2013-01-17 15:05:54&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.8.5&apos;, java.version: &apos;1.6.0_37&apos;
+Driver info: driver.version: unknown" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Timed out after 10 seconds: Could not find element : Located by By.selector: #link-to-login a:nth-child(1)
+Build info: version: &apos;dfb1306b85be4934d23c123122e06e602a15e446&apos;, revision: &apos;unknown&apos;, time: &apos;2013-01-17 15:05:54&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.8.5&apos;, java.version: &apos;1.6.0_37&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:255)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:224)
+	at org.qagile.selenium.DriverProvider.getWebElement(DriverProvider.java:79)
+	at org.qagile.selenium.DriverProvider.findElement(DriverProvider.java:69)
+	at org.qagile.elements.LoginElements.loginLink(LoginElements.java:17)
+	at org.qagile.pages.LoginPage.navigate(LoginPage.java:18)
+	at org.qagile.steps.MyStepDefs.I_navigate_to_spree_portal(MyStepDefs.java:40)
+	at ✽.And I navigate to spree portal(features/registration.feature:25)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#link-to-login a:nth-child(1)&quot;}
+Command duration or timeout: 9 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;dfb1306b85be4934d23c123122e06e602a15e446&apos;, revision: &apos;unknown&apos;, time: &apos;2013-01-17 15:05:54&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.8.5&apos;, java.version: &apos;1.6.0_37&apos;
+Session ID: 5b473678-7ca5-864a-b41c-0d868eb7202f
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=17.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:187)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:533)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:302)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:379)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:406)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:294)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:523)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:39)
+	at org.openqa.selenium.support.ui.ExpectedConditions$3.apply(ExpectedConditions.java:106)
+	at org.openqa.selenium.support.ui.ExpectedConditions$3.apply(ExpectedConditions.java:103)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:204)
+	at org.qagile.selenium.DriverProvider.getWebElement(DriverProvider.java:79)
+	at org.qagile.selenium.DriverProvider.findElement(DriverProvider.java:69)
+	at org.qagile.elements.LoginElements.loginLink(LoginElements.java:17)
+	at org.qagile.pages.LoginPage.navigate(LoginPage.java:18)
+	at org.qagile.steps.MyStepDefs.I_navigate_to_spree_portal(MyStepDefs.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at cucumber.runtime.Utils$1.call(Utils.java:44)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:12)
+	at cucumber.runtime.Utils.invoke(Utils.java:40)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:35)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:38)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:268)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:45)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:40)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:36)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:83)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:77)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:82)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:53)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:123)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#link-to-login a:nth-child(1)&quot;}
+Build info: version: &apos;dfb1306b85be4934d23c123122e06e602a15e446&apos;, revision: &apos;unknown&apos;, time: &apos;2013-01-17 15:05:54&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.8.5&apos;, java.version: &apos;1.6.0_37&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.findElementInternal_(file:///var/folders/rn/b6h4v6cj667f14cryvh_9_l40000gn/T/anonymous6051919102514119616webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8251)
+	at &lt;anonymous class&gt;.FirefoxDriver.findElement(file:///var/folders/rn/b6h4v6cj667f14cryvh_9_l40000gn/T/anonymous6051919102514119616webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8260)
+	at &lt;anonymous class&gt;.DelayedCommand.executeInternal_/h(file:///var/folders/rn/b6h4v6cj667f14cryvh_9_l40000gn/T/anonymous6051919102514119616webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10224)
+	at &lt;anonymous class&gt;.DelayedCommand.executeInternal_(file:///var/folders/rn/b6h4v6cj667f14cryvh_9_l40000gn/T/anonymous6051919102514119616webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10229)
+	at &lt;anonymous class&gt;.DelayedCommand.execute/&lt;(file:///var/folders/rn/b6h4v6cj667f14cryvh_9_l40000gn/T/anonymous6051919102514119616webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10169)
+</error>
+  </testcase>
+  <testcase time="0.043" classname="Scenario: Invalid Registration" name="When I register the user">
+    <skipped/>
+  </testcase>
+  <testcase time="0.044" classname="Scenario: Invalid Registration" name="Then user should not be registered">
+    <skipped/>
+  </testcase>
+  <testcase time="0.045" classname="Scenario: Invalid Registration" name="And I should be told that password is less the six characters long">
+    <skipped/>
+  </testcase>
+</testsuite>
